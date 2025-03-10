@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-from tensorflow.keras.preprocessing import image
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import tensorflow as tf
 import time
 import random
